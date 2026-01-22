@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { Advantages } from './components/Advantages';
@@ -7,6 +7,7 @@ import { Team } from './components/Team';
 import { Results } from './components/Results';
 import { Testimonials } from './components/Testimonials';
 import { Footer } from './components/Footer';
+import './globals.css';
 
 export default function App() {
   return (
@@ -16,9 +17,10 @@ export default function App() {
       <Advantages />
       <Services />
       <Team />
-      <Results />
       <Testimonials />
+      <Results />
       <Footer />
     </div>
   );
 }
+
